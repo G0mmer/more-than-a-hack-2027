@@ -138,26 +138,27 @@ labelled video minutes an image model needs, and test the model on new matches f
 ## 7. Reproduction
 
 **Submission.** Run `submission/make_submission.py` (README). It verifies the model archive
-digest, runs on CPU with deterministic PyTorch and validates the CSV. In fresh environments
-installed from `requirements.txt` on Windows x64, repeated runs wrote identical bytes. The SHA-256
-of the submitted CSV is listed in the README.
+digest, runs on CPU with deterministic PyTorch and validates the CSV. The submitted CSV
+(SHA-256 in the README) was produced with identical bytes on Windows x64 and, by a team member
+from a fresh clone, on macOS ARM64.
 
 **Weights.** `training/` rebuilds the model archive from the public DFL files in nine numbered
-steps. On Windows x64 CPU, retraining from the raw files gave:
+steps. Each part was trained once, on one platform. Retrained on that platform it comes out
+identical or within floating-point rounding; on another platform it differs:
 
-| Part | Result against the shipped weights |
-|---|---|
-| Prepared DFL arrays | identical bytes |
-| Motion CRF, dead-ball CRF, gate | identical bytes |
-| Player-movement network | identical network weights; auxiliary linear term and its temperature differ by at most 1e-12 |
-| Stoppage and restart heads | weights differ by at most 1e-13 |
-| Anchor TCN | different weights. Shipped weights were trained on macOS arm64; our input scaler differs from theirs by one unit in the last place, and the difference grows during training. Three of our environments (Python 3.12 and 3.13, two NumPy versions) gave the same maximum difference |
-| P1 TCN | different weights. Shipped weights were trained on a Colab GPU |
+| Part | Trained on | Windows x64 retrain | macOS ARM64 retrain |
+|---|---|---|---|
+| Prepared DFL arrays | Windows x64 | identical | not checked |
+| Anchor TCN | macOS ARM64 | max abs diff 0.477 | identical |
+| Motion CRF, dead-ball CRF, gate | Windows x64 | identical | gate max abs diff 0.028 |
+| P1 TCN | Colab GPU | max abs diff 0.316 | max abs diff 0.326 |
+| Player-movement network | Windows x64 | identical network; linear term within 1e-12 | max abs diff 0.160 |
+| Stoppage and restart heads | Windows x64 | within 1e-13 | within 2e-14 |
 
-A CSV from the retrained parts agrees with the CSV from the shipped weights on 99.77% of frames
-of a test input built from DFL tracking. Using the retrained restart and movement parts alone
-gives the identical CSV. Retraining therefore confirms where the weights come from. The
-submission is defined by the shipped weights.
+On a test input built from DFL tracking, a CSV from the fully retrained Windows archive agrees
+with the shipped model on 99.77% of frames. The P1 weights could not be checked bit for bit
+because they come from a GPU. Retraining confirms where the weights come from; the submission is
+defined by the shipped weights.
 
 ## Sources
 

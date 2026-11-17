@@ -36,8 +36,10 @@ python -m venv .venv
 .venv/Scripts/python evaluation/validate_submission.py submission/eStart_Lodz.csv
 ```
 
-On Linux or macOS use `.venv/bin/python`. On Windows, keep the repository in a short path such
-as `C:\estart`: PyTorch fails to install in deeply nested folders unless long paths are enabled.
+On Linux or macOS use `.venv/bin/python`. On macOS the CPU wheel has no `+cpu` suffix: replace
+`torch==2.15.0+cpu` with `torch==2.15.0` when installing. On Windows, keep the repository in a
+short path such as `C:\estart`: PyTorch fails to install in deeply nested folders unless long
+paths are enabled.
 
 `make_submission.py` checks the SHA-256 of `submission/model.zip`, runs on CPU with deterministic
 PyTorch operations, validates the file and prints its SHA-256.
@@ -47,8 +49,8 @@ PyTorch operations, validates the file and prints its SHA-256.
 | `submission/model.zip` | `9b67f97fee21467944354010f1aac3ba00eb0b5bd2884209d0319eb1a15dca81` |
 | submitted `eStart_Lodz.csv` | `a6fc0521798d37001ea76f33a722185172de45153c31e876a4954f324cf3f6af` |
 
-Byte-identical output is verified on Windows x64 CPU. Other platforms may differ in a small
-number of frames because of floating-point differences.
+The same CSV bytes were produced on Windows x64 (Python 3.13.11, fresh environment) and on macOS
+ARM64 (Python 3.13.5, fresh clone and environment).
 
 ## Repository layout
 
