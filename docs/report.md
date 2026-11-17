@@ -2,6 +2,8 @@
 
 Technical report, More than a Hack 2027 initial challenge, 17 November 2026.
 
+Team: Mateusz Gonera, Jakub Marczak, Bartosz Eppel, Maciej Górczyński, Mikołaj Terczyński.
+
 ## 1. Approach
 
 We label each frame of the tactical video as H, A, D or X from the automatic tracking only:
@@ -80,6 +82,13 @@ The team labelled 48 unique minutes in total (50 reviewer-minutes, 16 block revi
 form, with predictions hidden. The protocol, reviewer identifiers and intervals are in
 [data_and_annotations.md](data_and_annotations.md) and `docs/annotations/`. None of these labels
 are on the provided match, and none were used to fit the deployed weights.
+
+| Reviewer identifier in the annotation files | Team member | Block reviews |
+|---|---|---:|
+| Mikolaj | Mikołaj Terczyński | 6 |
+| Maciek | Maciej Górczyński | 4 |
+| MG, Mg | Mateusz Gonera | 5 |
+| BE | Bartosz Eppel | 1 |
 
 ## 4. Possession rules
 
