@@ -1,0 +1,45 @@
+{
+  "protocol_id": "f6de63b4f6ed26234482",
+  "reviewer": "Mikolaj",
+  "block_id": "117093_c2_extension_01",
+  "mapping_confirmed": true,
+  "no_predictions_confirmed": true,
+  "segments": [
+    {
+      "start_frame": 12650,
+      "end_frame_exclusive": 13206,
+      "label": "H",
+      "boundary_method": "browser_time_estimate"
+    },
+    {
+      "start_frame": 13206,
+      "end_frame_exclusive": 13610,
+      "label": "D",
+      "boundary_method": "browser_time_estimate"
+    },
+    {
+      "start_frame": 13610,
+      "end_frame_exclusive": 13752,
+      "label": "A",
+      "boundary_method": "browser_time_estimate"
+    },
+    {
+      "start_frame": 13752,
+      "end_frame_exclusive": 13787,
+      "label": "H",
+      "boundary_method": "browser_time_estimate"
+    },
+    {
+      "start_frame": 13787,
+      "end_frame_exclusive": 14112,
+      "label": "D",
+      "boundary_method": "browser_time_estimate"
+    },
+    {
+      "start_frame": 14112,
+      "end_frame_exclusive": 14150,
+      "label": "A",
+      "boundary_method": "browser_time_estimate"
+    }
+  ]
+}

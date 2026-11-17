@@ -1,0 +1,33 @@
+{
+  "protocol_id": "f6de63b4f6ed26234482",
+  "reviewer": "Mikolaj",
+  "block_id": "117092_c2_pilot_01",
+  "mapping_confirmed": true,
+  "no_predictions_confirmed": true,
+  "segments": [
+    {
+      "start_frame": 14250,
+      "end_frame_exclusive": 15024,
+      "label": "H",
+      "boundary_method": "browser_time_estimate"
+    },
+    {
+      "start_frame": 15024,
+      "end_frame_exclusive": 15177,
+      "label": "A",
+      "boundary_method": "browser_time_estimate"
+    },
+    {
+      "start_frame": 15177,
+      "end_frame_exclusive": 15279,
+      "label": "D",
+      "boundary_method": "browser_time_estimate"
+    },
+    {
+      "start_frame": 15279,
+      "end_frame_exclusive": 15750,
+      "label": "A",
+      "boundary_method": "browser_time_estimate"
+    }
+  ]
+}

@@ -1,0 +1,3 @@
+# Model archives and the report are binary; never normalise them.
+*.zip binary
+*.pdf binary

@@ -62,3 +62,11 @@ __pycache__/
 venv/
 env/
 .DS_Store
+
+# -- eStart Lodz submission -------------------------------------------------------------------
+# Training outputs, the generated CSV and local virtual environments stay out of git.
+runs/
+submission/*.csv
+.venv*/
+# The technical report is committed on purpose.
+!docs/eStart_Lodz.pdf

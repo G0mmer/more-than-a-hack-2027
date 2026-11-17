@@ -1,0 +1,129 @@
+{
+  "protocol_id": "a4b226f88ffa7fc1e47f",
+  "reviewer": "Mg",
+  "block_id": "128057_restart_test_02",
+  "mapping_confirmed": true,
+  "no_predictions_confirmed": true,
+  "segments": [
+    {
+      "start_frame": 58075,
+      "end_frame_exclusive": 58531,
+      "label": "D",
+      "boundary_method": "browser_time_estimate"
+    },
+    {
+      "start_frame": 58531,
+      "end_frame_exclusive": 58720,
+      "label": "A",
+      "boundary_method": "browser_time_estimate"
+    },
+    {
+      "start_frame": 58720,
+      "end_frame_exclusive": 58784,
+      "label": "H",
+      "boundary_method": "browser_time_estimate"
+    },
+    {
+      "start_frame": 58784,
+      "end_frame_exclusive": 59237,
+      "label": "A",
+      "boundary_method": "browser_time_estimate"
+    },
+    {
+      "start_frame": 59237,
+      "end_frame_exclusive": 59520,
+      "label": "D",
+      "boundary_method": "browser_time_estimate"
+    },
+    {
+      "start_frame": 59520,
+      "end_frame_exclusive": 59553,
+      "label": "A",
+      "boundary_method": "browser_time_estimate"
+    },
+    {
+      "start_frame": 59553,
+      "end_frame_exclusive": 59641,
+      "label": "H",
+      "boundary_method": "browser_time_estimate"
+    },
+    {
+      "start_frame": 59641,
+      "end_frame_exclusive": 60189,
+      "label": "D",
+      "boundary_method": "browser_time_estimate"
+    },
+    {
+      "start_frame": 60189,
+      "end_frame_exclusive": 60292,
+      "label": "H",
+      "boundary_method": "browser_time_estimate"
+    },
+    {
+      "start_frame": 60292,
+      "end_frame_exclusive": 61335,
+      "label": "D",
+      "boundary_method": "browser_time_estimate"
+    },
+    {
+      "start_frame": 61335,
+      "end_frame_exclusive": 61506,
+      "label": "H",
+      "boundary_method": "browser_time_estimate"
+    },
+    {
+      "start_frame": 61506,
+      "end_frame_exclusive": 62201,
+      "label": "D",
+      "boundary_method": "browser_time_estimate"
+    },
+    {
+      "start_frame": 62201,
+      "end_frame_exclusive": 62481,
+      "label": "A",
+      "boundary_method": "browser_time_estimate"
+    },
+    {
+      "start_frame": 62481,
+      "end_frame_exclusive": 62785,
+      "label": "H",
+      "boundary_method": "browser_time_estimate"
+    },
+    {
+      "start_frame": 62785,
+      "end_frame_exclusive": 63398,
+      "label": "A",
+      "boundary_method": "browser_time_estimate"
+    },
+    {
+      "start_frame": 63398,
+      "end_frame_exclusive": 63763,
+      "label": "H",
+      "boundary_method": "browser_time_estimate"
+    },
+    {
+      "start_frame": 63763,
+      "end_frame_exclusive": 63938,
+      "label": "A",
+      "boundary_method": "browser_time_estimate"
+    },
+    {
+      "start_frame": 63938,
+      "end_frame_exclusive": 64450,
+      "label": "H",
+      "boundary_method": "browser_time_estimate"
+    },
+    {
+      "start_frame": 64450,
+      "end_frame_exclusive": 65442,
+      "label": "A",
+      "boundary_method": "browser_time_estimate"
+    },
+    {
+      "start_frame": 65442,
+      "end_frame_exclusive": 65575,
+      "label": "H",
+      "boundary_method": "browser_time_estimate"
+    }
+  ]
+}

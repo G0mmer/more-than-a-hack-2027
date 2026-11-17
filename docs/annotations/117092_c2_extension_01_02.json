@@ -1,0 +1,39 @@
+{
+  "protocol_id": "f6de63b4f6ed26234482",
+  "reviewer": "Mikolaj",
+  "block_id": "117092_c2_extension_01",
+  "mapping_confirmed": true,
+  "no_predictions_confirmed": true,
+  "segments": [
+    {
+      "start_frame": 18650,
+      "end_frame_exclusive": 18972,
+      "label": "H",
+      "boundary_method": "browser_time_estimate"
+    },
+    {
+      "start_frame": 18972,
+      "end_frame_exclusive": 19802,
+      "label": "A",
+      "boundary_method": "browser_time_estimate"
+    },
+    {
+      "start_frame": 19802,
+      "end_frame_exclusive": 19922,
+      "label": "H",
+      "boundary_method": "browser_time_estimate"
+    },
+    {
+      "start_frame": 19922,
+      "end_frame_exclusive": 20149,
+      "label": "A",
+      "boundary_method": "browser_time_estimate"
+    },
+    {
+      "start_frame": 20149,
+      "end_frame_exclusive": 20150,
+      "label": "H",
+      "boundary_method": "browser_time_estimate"
+    }
+  ]
+}

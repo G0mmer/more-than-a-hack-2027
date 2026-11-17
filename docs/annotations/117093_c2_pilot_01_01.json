@@ -1,0 +1,45 @@
+{
+  "protocol_id": "f6de63b4f6ed26234482",
+  "reviewer": "Mikolaj",
+  "block_id": "117093_c2_pilot_01",
+  "mapping_confirmed": true,
+  "no_predictions_confirmed": true,
+  "segments": [
+    {
+      "start_frame": 46250,
+      "end_frame_exclusive": 46702,
+      "label": "D",
+      "boundary_method": "browser_time_estimate"
+    },
+    {
+      "start_frame": 46702,
+      "end_frame_exclusive": 46786,
+      "label": "H",
+      "boundary_method": "browser_time_estimate"
+    },
+    {
+      "start_frame": 46786,
+      "end_frame_exclusive": 46869,
+      "label": "A",
+      "boundary_method": "browser_time_estimate"
+    },
+    {
+      "start_frame": 46869,
+      "end_frame_exclusive": 47192,
+      "label": "D",
+      "boundary_method": "browser_time_estimate"
+    },
+    {
+      "start_frame": 47192,
+      "end_frame_exclusive": 47510,
+      "label": "H",
+      "boundary_method": "browser_time_estimate"
+    },
+    {
+      "start_frame": 47510,
+      "end_frame_exclusive": 47750,
+      "label": "A",
+      "boundary_method": "browser_time_estimate"
+    }
+  ]
+}

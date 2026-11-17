@@ -1,0 +1,117 @@
+{
+  "protocol_id": "bc6b5e5cbca3f41e45b4",
+  "reviewer": "BE",
+  "block_id": "118577_p0_test_01",
+  "mapping_confirmed": true,
+  "no_predictions_confirmed": true,
+  "segments": [
+    {
+      "start_frame": 14925,
+      "end_frame_exclusive": 16735,
+      "label": "D",
+      "boundary_method": "browser_time_estimate"
+    },
+    {
+      "start_frame": 16735,
+      "end_frame_exclusive": 17303,
+      "label": "A",
+      "boundary_method": "browser_time_estimate"
+    },
+    {
+      "start_frame": 17303,
+      "end_frame_exclusive": 17629,
+      "label": "D",
+      "boundary_method": "browser_time_estimate"
+    },
+    {
+      "start_frame": 17629,
+      "end_frame_exclusive": 17835,
+      "label": "A",
+      "boundary_method": "browser_time_estimate"
+    },
+    {
+      "start_frame": 17835,
+      "end_frame_exclusive": 18072,
+      "label": "D",
+      "boundary_method": "browser_time_estimate"
+    },
+    {
+      "start_frame": 18072,
+      "end_frame_exclusive": 18737,
+      "label": "H",
+      "boundary_method": "browser_time_estimate"
+    },
+    {
+      "start_frame": 18737,
+      "end_frame_exclusive": 19111,
+      "label": "D",
+      "boundary_method": "browser_time_estimate"
+    },
+    {
+      "start_frame": 19111,
+      "end_frame_exclusive": 19472,
+      "label": "H",
+      "boundary_method": "browser_time_estimate"
+    },
+    {
+      "start_frame": 19472,
+      "end_frame_exclusive": 19806,
+      "label": "A",
+      "boundary_method": "browser_time_estimate"
+    },
+    {
+      "start_frame": 19806,
+      "end_frame_exclusive": 20265,
+      "label": "D",
+      "boundary_method": "browser_time_estimate"
+    },
+    {
+      "start_frame": 20265,
+      "end_frame_exclusive": 20371,
+      "label": "H",
+      "boundary_method": "browser_time_estimate"
+    },
+    {
+      "start_frame": 20371,
+      "end_frame_exclusive": 20500,
+      "label": "A",
+      "boundary_method": "browser_time_estimate"
+    },
+    {
+      "start_frame": 20500,
+      "end_frame_exclusive": 20790,
+      "label": "H",
+      "boundary_method": "browser_time_estimate"
+    },
+    {
+      "start_frame": 20790,
+      "end_frame_exclusive": 21014,
+      "label": "D",
+      "boundary_method": "browser_time_estimate"
+    },
+    {
+      "start_frame": 21014,
+      "end_frame_exclusive": 21218,
+      "label": "H",
+      "boundary_method": "browser_time_estimate"
+    },
+    {
+      "start_frame": 21218,
+      "end_frame_exclusive": 21380,
+      "label": "D",
+      "boundary_method": "browser_time_estimate"
+    },
+    {
+      "start_frame": 21380,
+      "end_frame_exclusive": 21712,
+      "label": "H",
+      "boundary_method": "browser_time_estimate"
+    },
+    {
+      "start_frame": 21712,
+      "end_frame_exclusive": 22425,
+      "label": "D",
+      "boundary_method": "browser_time_estimate"
+    }
+  ]
+}
